@@ -1,0 +1,31 @@
+.first-button {
+    margin-bottom: 50px;
+    background-color:rgb(235, 213, 144);
+}
+
+.button-holder {
+    width: 100px;
+    height: 80px;
+}
+
+.click-me-button {
+    color:rgb(0, 0, 0);
+    background-color: darkgray;
+}
+
+.print{
+    color: blueviolet;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.text-area {
+    width: 100px;
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+}

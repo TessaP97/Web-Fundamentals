@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="easy-bay.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay</title>
+</head>
+<body>
+    <header>
+        <div class="search-bar">
+            <div class="easybay-box">
+                <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/leaf.png" alt="leaf logo" class="easybaylogo">
+                <h1 class="easy-bay-title">Easy Bay</h1>
+            </div>
+            <div class="search-box">
+                <input type="text" class="search" placeholder="Search for anything">
+            </div>
+            <div class="sign-in-cart">
+                <span class="sign-in">Sign In</span>
+                <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/cart-dark.png" alt="shoppingCart" class="shopping-cart" onclick="alert('Your Cart is Empty!')">
+            </div>
+        </div>
+    </header>
+    <div class="plant-names">
+        <h2>Aeonium</h2>
+        <h2>Andormischus</h2>
+        <h2>Agave</h2>
+        <h2>Aloe</h2>
+        <h2>Anacampseros</h2>
+        <h2>Aristaloe</h2>
+        <h2>More...</h2>
+    </div>
+    <div class="main-container">
+        <header class="content-header">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </header>
+        <div class="row1">
+            <div class="discover-box">
+                <p class="discover-box-text">Discover succ-ulent varieties one pot or rack at a time!</p>
+                <div class="discover-arrow-box">
+                    <span class="discover-right-arrow">Discover</span>
+                    <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/arrow-light.png" alt="right-arrow" class="right-arrow">
+                </div>
+            </div>
+        <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/succulents-1.jpg" alt="succulents-ad" id="plant-hover-pics" onmouseover="plantHover('assets/succulents-2.jpg')" onmouseout="plantHoverOut('assets/succulents-1.jpg')">
+            <div class="soothing-aloe-column">
+                <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/aloe-m.jpg" alt="aloe-pic" class="soothing-aloe-image">
+                <div class="aloe-arrow-box">
+                    <span class="soothing-aloe-text">Soothing aloe</span>
+                    <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/arrow-light.png" alt="right-arrow" class="right-arrow">
+                </div>
+            </div>
+        </div>
+    <div class="row2">
+        <div class="plant1">
+            <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/aeonium-s.jpg" alt="Aeonium" class="plant-image">
+            <p>Aeonium</p>
+        </div>
+        <div class="plant2">
+            <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/aloe-s.jpg" alt="Aloe" class="plant-image">
+            <p>Aloe</p>
+        </div>
+        <div class="plant3">
+            <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/cactus-s.jpg" alt="Cactus" class="plant-image">
+            <p>Cactus</p>
+        </div>
+        <div class="plant4">
+            <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/echeveria-s.jpg" alt="Echeveria" class="plant-image">
+            <p>Echeveria</p>
+        </div>
+        <div class="plant5">
+            <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/sedum-s.jpg" alt="Sedum" class="plant-image">
+            <p>Sedum</p>
+        </div>
+        <div class="plant6">
+            <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/sempervivum-s.jpg" alt="Sempervivum" class="plant-image">
+            <p>Sempervivum</p>
+        </div> 
+    </div> 
+    <div class="cookies-box">
+        <div class="cookies-image">
+            <img src="/Users/tessaporras/Desktop/Web-Fundamentals/Tessa-Porras-YellowBelt/images/assets/alert-dark.png" alt="cookies">
+        </div>
+        <div class="cookies-text">
+            <span class="cookies-paragraph">This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our</span>
+            <a href="http://login.codingdojo.com/" class="cookie-link">cookie policy.</a>
+        </div>
+        <button type="submit" class="accept-button" onclick="parentNode.remove()">I accept</button>
+</div>  
+</div>
+<script src="easy-bay.js"></script>    
+</body>
+</html>

@@ -1,0 +1,218 @@
+* {
+    margin-top: 0px;
+}
+
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.easybaylogo {
+    background-color: rgb(0, 185, 161);
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.easy-bay-title {
+    font-size: 30px;
+}
+
+.easybay-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.search {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 700px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid gray;
+    background-color: rgb(231, 231, 231);
+    text-indent: 15px;
+}
+
+.sign-in-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.shopping-cart {
+    width: 30px;
+    margin-left: 20px;
+}
+
+.plant-names {
+    border-bottom: 3px black solid;
+    justify-content:space-around;
+    display: flex;
+    font-size: 16px;
+}
+
+h2 {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-container {
+    margin-top: 40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content-header {
+    font-size: 18px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.discover-box {
+    background-color: rgb(0, 185, 161);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: whitesmoke;
+    width: 250px;
+    align-items: center;
+}
+
+.discover-box-text {
+    text-align: center;
+}
+
+.discover-arrow-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.right-arrorw {
+    width: 5px;
+}
+
+.plant-hover-pics {
+    width: 380px;
+}
+
+.soothing-aloe-column {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.soothing-aloe-image {
+    width: 400px;
+}
+
+.aloe-arrow-box {
+    background-color: rgb(0, 185, 161);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgb(0, 185, 161);
+}
+
+.row2 p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.plant-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.cookies-box {
+    border: 1px rgb(0, 0, 0) solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 830px;
+    margin-left: 150px;
+    background-color: rgb(236, 236, 236);
+    padding-bottom: 20px;
+    position:fixed;
+    top: 80%;
+    padding-top: 20px;
+}
+
+.cookies-image {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.cookies-text {
+    margin-top: 25px;
+}
+
+.cookie-link {
+    color: blue;
+}
+
+.accept-button-box {
+    padding-right: 10px;
+}
+
+.accept-button {
+    background-color: rgb(16, 170, 170);
+    font-size: 14px;
+    color: whitesmoke;
+    width: 110px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 5px;
+    box-shadow: 2px 3px 1px black;
+    align-self: center;
+    border: black 2px solid;
+}

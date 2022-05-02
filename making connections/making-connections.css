@@ -1,0 +1,366 @@
+* {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    width:1500px;
+    height: 80px;
+    background-color:black;
+}
+
+.profile {
+    font-size: 40px;
+    margin-left: 200px; 
+    margin-right: 24px; 
+    align-self: center;
+    color: whitesmoke;
+}
+
+.nav-links-box {
+    align-self: center;
+}
+
+.nav-link {
+    align-self: center;
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.sign-out-button-box {
+    align-self: center;
+    margin-left: 250px;
+}
+
+.sign-out-button {
+    background-color: darkcyan;
+    color: white;
+    font-size: 14px;
+}
+
+.container {
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: flex-end;
+}
+
+.about-me-column {
+    width: 430px;
+}
+
+.profile-box {
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 30px;
+    border: 3px solid rgb(199, 199, 199);
+}
+
+.teal-bar {
+    height: 90px;
+    background-color: rgb(13, 138, 131);
+}
+
+.profile-box-content {
+    padding-left: 20px;
+}
+
+.profile-pic {
+    width: 95px;
+    height: 100px;
+    border-radius: 50%;
+    border-image: round;
+    position: absolute;
+    top: 150px;
+    border: mintcream 4px solid;
+    margin-bottom: 1px;
+}
+
+.name {
+    margin-bottom: 4px;
+}
+
+.display-name {
+    font-size: 25px;
+}
+
+.bio-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-bottom: 18px;
+}
+
+.marker-image {
+    width: 10px;
+    height: 14px;
+}
+
+.location-box {
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+.line1 {
+    margin-bottom: 2px;
+}
+
+.edit-profile-box {
+    margin-top: 10px;
+}
+
+.gear {
+    width: 13px;
+    height: 13px;
+    margin-right: 2px;
+    padding-bottom: 0px;
+}
+
+.education-box {
+    background-color: rgb(248, 248, 248);
+    border: 3px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+}
+
+.education-color-bar {
+    height: 30px;
+    background-color:rgb(54, 54, 54);
+    margin-bottom: 10px;
+}
+
+.education-title {
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 12px;
+}
+
+.education-content {
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coding-dojo {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.dates {
+    color: lightslategray;
+    margin-bottom: 10px;
+}
+
+.stacks {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.connections-column {
+    margin-left: 20px;
+}
+
+.connection-requests-box {
+    border: rgb(199, 199, 199) 3px solid;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.friends-buttons-holder {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.connection-notification-image {
+    height: 25px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.connection-color-bar {
+    background-color:rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.friend-request-list {
+    font-size: 18px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.buttons-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-box-1 {
+    margin-bottom: 12px;
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
+.button-box-row2 {
+    margin-left: 5px;
+}
+
+.approve-request {
+    width: 30px;
+    height: 30px;
+}
+
+.deny-request {
+    width: 30px;
+    height: 30px;
+}
+
+.friend-request-row1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.friend1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    margin-right: 10px;
+}
+
+.friend-request-row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.friend2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    margin-right: 10px;
+}
+
+.your-connections-box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(199, 199, 199);
+}
+
+.connections-titlebar {
+    background-color: rgb(54, 54, 54);
+    padding-left: 10px;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.connections-image {
+    height: 20px;
+    border-radius: 90%;
+    margin-right: 10px;
+}
+
+.connections-list {
+    padding-left: 10px;
+}
+
+.cool-dolphin-dude {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.one-cool-dolphin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.peaches-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.peaches {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.meme {
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.meme-guy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sam {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.samuel-jackson {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.view-more-link {
+    border-top: 3px solid rgb(199, 199, 199);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.view-more {
+    color: mediumblue;
+}
+
+.edit-profile {
+    color: mediumblue;
+}
+
+.approve-button {
+    border-color: white;
+}
+
+.deny-button {
+    border-color: white;
+}

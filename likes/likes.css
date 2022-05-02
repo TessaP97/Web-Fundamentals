@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.network-bar {
+    background-color: black;
+    width: 1000px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.james-box {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 220px;
+    height: 300px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profilepic {
+    width: 150px;
+}
+
+.right-column {
+    display:flex;
+    flex-direction: column;
+    border: 2px green solid;
+}
+
+.neil-box {
+    border: 3px solid black;
+    width: 720px;
+    height: 200px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.some-user {
+    font-size: 25px;
+}
+
+
+.likes-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+
+h1 {
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+#count {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.likes-text {
+    margin-right: 50px;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    background-color: orange;
+    font-size: 16px;
+    box-shadow: 3px 2px 2px black;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nicole-box {
+    border: 3px solid black;
+    width: 720px;
+    height: 200px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.jim-box {
+    border: 3px solid black;
+    width: 720px;
+    height: 200px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
